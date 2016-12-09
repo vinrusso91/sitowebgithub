@@ -1,0 +1,128 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  font-family: 'Reem Kufi', sans-serif;
+}
+nav ul a,
+nav .brand-logo {
+  color: #85C7DE;
+}
+nav .nav-wrapper {
+
+    padding: 0 50px;
+  }
+
+nav .brand-logo {
+font-family: 'Satisfy', cursive;
+}
+
+.parallax-container .header1 {
+  font-family: 'Satisfy', cursive;
+}
+
+
+}
+p {
+  line-height: 2rem;
+}
+
+
+
+.button-collapse {
+  color: #85C7DE;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+    height: 100%;
+  }
+
+
+.header{
+  margin-top:10%;
+  color: #ecfff8;
+   }
+
+
+.headero{
+  margin-top:5%;
+  font-size:1.3em;
+  font-family: 'Satisfy', cursive;
+  color: #ecfff8;
+}
+
+@media only screen and (max-width : 50px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 90%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  nav .nav-wrapper {
+
+    padding: 0 10px;
+  }
+}
+
+
+.container .col-servizio {
+  margin-top: 10%;
+}
+
+
+#contatti .material-icons {
+  font-size:3em;
+margin-top: 10%;
+}
+
+#contatti .contatti-subtitle {
+  font-size: 1.3em;
+  line-height: 2em;
+  margin-top: 10%;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.btn-registrazione{
+  width: 100%;
+}
+.btn-contatti{
+  width: 100%;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color:#85C7DE; 
+}
+
+a.social-icon {
+  font-size: 1.3em; 
+  color: #ecfff8;
+  padding: 0 20px;
+}
+.social-icon:hover{
+  color:#ef3550;
+}
